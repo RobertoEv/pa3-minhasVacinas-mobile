@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">MinhasVacinas</string>
+    <string name="app_name">Minhas Vacinas</string>
+    <string name="login_title">Login</string>
+    <string name="login_email">fulanodetal@gmail.com</string>
+    <string name="login_senha">Sua senha</string>
+    <string name="login_button">Entrar</string>
+    <string name="cadastrar_button">Cadastrar</string>
+    <string name="cadastro_title">Cadastro</string>
+    <string name="hint_cadastro_nome">Nome</string>
+    <string name="hint_cadastro_email">Email</string>
+    <string name="hint_cadastro_confi_email">Confirmar email</string>
+    <string name="hint_cadastro_senha">Senha</string>
+    <string name="hint_cadastro_conf_senha">Confirmar Senha</string>
+    <string name="cadastro_button_confirmar">Confirmar</string>
+    <string name="cadastro_button_cancelar">Cancelar</string>
 </resources>
