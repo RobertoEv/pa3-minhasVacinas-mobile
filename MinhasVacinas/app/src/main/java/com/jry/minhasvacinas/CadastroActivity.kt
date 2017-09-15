@@ -6,15 +6,10 @@ import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class CadastroActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        cadastroButton.setOnClickListener {
-            var cadastroIntent = Intent(this, CadastroActivity::class.java)
-            startActivity(cadastroIntent)
-        }
+        setContentView(R.layout.activity_cadastro)
     }
 }
