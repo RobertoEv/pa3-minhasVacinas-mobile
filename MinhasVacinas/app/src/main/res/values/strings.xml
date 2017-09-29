@@ -13,4 +13,11 @@
     <string name="hint_cadastro_conf_senha">Confirmar Senha</string>
     <string name="cadastro_button_confirmar">Confirmar</string>
     <string name="cadastro_button_cancelar">Cancelar</string>
+    <string name="esqueceu_a_senha">Esqueceu a Senha?</string>
+    <string name="recuperar_senha">Recuperar</string>
+    <string name="esqueceu_senha">Esqueceu a Senha</string>
+    <string name="nome_cliente">Roberto Evangelista</string>
+    <string name="email_cliente">betoesf@gmail.com</string>
+    <string name="perfil">Perfil</string>
+    <string name="editar_perfil">Editar perfil</string>
 </resources>

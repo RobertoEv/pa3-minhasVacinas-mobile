@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#efefef"
-    tools:context="com.jry.minhasvacinas.CadastroActivity">
+    tools:context="com.jry.minhasvacinas.EditPerfilActivity">
 
     <TextView
-        android:id="@+id/cadastroText"
-        android:layout_width="0dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:paddingTop="32dp"
-        android:text="@string/cadastro_title"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="32dp"
+        android:text="@string/editar_perfil"
+        android:textColor="@color/colorTitle"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +33,7 @@
         android:paddingHorizontal="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cadastroText" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/emailId"
@@ -100,7 +96,7 @@
         app:layout_constraintTop_toBottomOf="@+id/senhaId" />
 
     <Button
-        android:id="@+id/confirmarCadastroButton"
+        android:id="@+id/confirmarEditarPerfilButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -111,12 +107,12 @@
         android:background="@color/colorButton"
         android:text="@string/cadastro_button_confirmar"
         android:textColor="@android:color/background_light"
-        app:layout_constraintEnd_toStartOf="@+id/cancelarCadastroButton"
+        app:layout_constraintEnd_toStartOf="@+id/cancelarEditarPerfilButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmSenhaId" />
 
     <Button
-        android:id="@+id/cancelarCadastroButton"
+        android:id="@+id/cancelarEditarPerfilButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -128,7 +124,7 @@
         android:text="@string/cadastro_button_cancelar"
         android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/confirmarCadastroButton"
+        app:layout_constraintStart_toEndOf="@+id/confirmarEditarPerfilButton"
         app:layout_constraintTop_toBottomOf="@+id/confirmSenhaId" />
 
 </android.support.constraint.ConstraintLayout>

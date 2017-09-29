@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CadastroActivity"></activity>
+        <activity android:name=".CadastroActivity" />
+        <activity android:name=".EsqueceuSenhaActivity" />
+        <activity android:name=".MeusPetsActivity" />
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".EditPerfilActivity"></activity>
     </application>
 
 </manifest>
