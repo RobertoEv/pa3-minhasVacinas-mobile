@@ -24,7 +24,40 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 
-    
+    fun validateFields(): Boolean {
+        var validator = verifyBlankSpaces()
+        validator = confirmEmail(validator)
+        validator = confirmPassword(validator)
+        return validator
+    }
+
+    fun confirmPassword(validator: Boolean): Boolean {
+        val email = registerEmailId?.text.toString().trim()
+        val confirmEmail = registerConfirmEmailId?.text.toString().trim()
+
+        if (validator) {
+            if (!email.equals(confirmEmail)){
+                Toast.makeText(this, "Email e confirmar email são diferentes",
+                        Toast.LENGTH_LONG).show()
+                return false
+            }
+        }
+        return true
+    }
+
+    fun confirmEmail(validator: Boolean): Boolean {
+        val password = registerPasswordId?.text.toString().trim()
+        val confirmPassword = registerConfirmPasswordId?.text.toString().trim()
+
+        if (validator) {
+            if (!password.equals(confirmPassword)){
+                Toast.makeText(this, "Senha e confirmar senha são diferentes",
+                        Toast.LENGTH_LONG).show()
+                return false
+            }
+        }
+        return true
+    }
 
     fun verifyBlankSpaces(): Boolean {
         var errorMessage: String = "Por favor, preencher: "
