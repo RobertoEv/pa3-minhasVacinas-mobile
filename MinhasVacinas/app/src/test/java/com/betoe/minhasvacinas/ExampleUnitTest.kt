@@ -1,4 +1,4 @@
-package com.jry.minhasvacinas
+package com.betoe.minhasvacinas
 
 import org.junit.Test
 
