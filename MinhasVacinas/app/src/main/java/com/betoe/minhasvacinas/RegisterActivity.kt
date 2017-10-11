@@ -19,8 +19,7 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         registerCancelButton.setOnClickListener {
-            var loginIntent = Intent(this, LoginActivity::class.java)
-            startActivity(loginIntent)
+            finish()
         }
     }
 

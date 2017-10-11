@@ -17,9 +17,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         }
 
         forgotPasswordCancelButton.setOnClickListener {
-            var loginIntent = Intent(this, LoginActivity::class.java)
-            startActivity(loginIntent)
-
+            finish()
         }
 
 
