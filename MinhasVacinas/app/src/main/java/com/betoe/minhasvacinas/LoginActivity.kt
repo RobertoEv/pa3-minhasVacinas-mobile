@@ -12,6 +12,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        loginForgotPasswordId.setOnClickListener {
+            var forgotPasswordIntent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(forgotPasswordIntent)
+        }
+
         loginSignInButtonId.setOnClickListener {
             verifyBlankSpaces()
         }
