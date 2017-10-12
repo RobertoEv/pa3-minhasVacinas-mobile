@@ -18,4 +18,8 @@
     <string name="forgot_password_email_hint">Enter email to recover password</string>
     <string name="forgot_password_confirm_button">Confirm</string>
     <string name="forgot_password_cancel_button">Cancel</string>
+    <string name="main_title">Meus pets</string>
+    <string name="pet_item_name">Name</string>
+    <string name="pet_item_next_vaccine_date">Date</string>
+    <string name="pet_item_vaccine_type">Type</string>
 </resources>
