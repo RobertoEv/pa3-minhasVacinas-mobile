@@ -13,21 +13,22 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         loginForgotPasswordId.setOnClickListener {
-            var forgotPasswordIntent = Intent(this, ForgotPasswordActivity::class.java)
-            startActivity(forgotPasswordIntent)
+            startActivity(Intent(this, ForgotPasswordActivity::class.java))
         }
 
         loginSignInButtonId.setOnClickListener {
-            verifyBlankSpaces()
+            var validator = verifyBlankSpaces()
+            if (validator) {
+                startActivity(Intent(this, MainActivity::class.java))
+            }
         }
 
         loginSignUpButton.setOnClickListener {
-            var signUpIntent = Intent(this, RegisterActivity::class.java)
-            startActivity(signUpIntent)
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
 
-    fun verifyBlankSpaces() {
+    fun verifyBlankSpaces(): Boolean {
         var errorMessage: String = "Por favor, preencher: "
         val email = loginEmailId?.text.toString().trim()
         val password = loginPasswordId?.text.toString().trim()
@@ -46,5 +47,6 @@ class LoginActivity : AppCompatActivity() {
         if (validator == false) {
             Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show()
         }
+        return validator
     }
 }

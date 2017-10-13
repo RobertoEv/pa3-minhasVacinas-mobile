@@ -22,4 +22,12 @@
     <string name="pet_item_name">Name</string>
     <string name="pet_item_next_vaccine_date">Date</string>
     <string name="pet_item_vaccine_type">Type</string>
+    <string name="register_pet_title">Register Pet</string>
+    <string name="register_pet_name_hint">Pet Name</string>
+    <string name="register_pet_specie_hint">Pet Specie: e.g. Cat, Dog</string>
+    <string name="register_pet_breed_hint">Pet Breed: e.g. Schnauzer, Pitbull</string>
+    <string name="register_pet_weight_hint">Pet Weight</string>
+    <string name="register_pet_birth_hint">Birthday</string>
+    <string name="register_pet_save_button">Save</string>
+    <string name="register_pet_cancel_button">Cancel</string>
 </resources>
