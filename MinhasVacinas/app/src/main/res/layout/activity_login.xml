@@ -14,6 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:text="@string/login_title"
+        android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,6 +56,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/login_sign_in_button"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
         app:layout_constraintEnd_toStartOf="@+id/loginSignUpButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginForgotPasswordId" />
@@ -67,6 +70,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/login_sign_up_button"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/loginSignInButtonId"
         app:layout_constraintTop_toBottomOf="@+id/loginForgotPasswordId" />
