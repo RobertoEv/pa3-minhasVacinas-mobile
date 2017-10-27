@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.betoe.minhasvacinas.LoginActivity">
+    tools:context="com.betoe.minhasvacinas.LoginActivity"
+    android:background="@drawable/android02">
 
     <TextView
         android:id="@+id/loginTitle"
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="160dp"
         android:ems="10"
         android:hint="@string/login_email_hint"
         android:inputType="textEmailAddress"

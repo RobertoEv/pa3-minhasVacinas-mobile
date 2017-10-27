@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Minhas Vacinas</string>
-    <string name="login_title">Login</string>
+    <string name="login_title">.</string>
     <string name="login_email_hint">Enter your email</string>
     <string name="login_password_hint">Enter your password</string>
     <string name="login_forgot_password_hint">Forgot your password?</string>
