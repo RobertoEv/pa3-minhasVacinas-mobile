@@ -5,4 +5,18 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Configurações</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entre ou Registre</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">E-mail Inválido</string>
+    <string name="error_invalid_password">Senha Invalida</string>
+    <string name="error_incorrect_password">Senha Incorreta</string>
+    <string name="error_field_required">Preencha o Campo</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 </resources>

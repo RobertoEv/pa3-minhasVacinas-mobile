@@ -42,7 +42,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void run() {
 
                 // Cria uma intent explicita para abrir a activity MainActiivty e encerra a activity atual
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
                 finish();
 
