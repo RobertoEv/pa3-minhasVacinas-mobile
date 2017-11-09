@@ -30,6 +30,7 @@
             android:name=".MainActivity"
             android:label="Minhas Vacinas"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterActivity" />
     </application>
 
 </manifest>
