@@ -3,114 +3,118 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.example.yuriepriscilla.minhasvacinas.RegisterActivity">
 
     <TextView
         android:id="@+id/registerTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register_title"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
         android:textColor="@color/colorPrimary"
-        android:layout_marginTop="40dp"
+        android:text="@string/register_title"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="29dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/registerNameId"
-        android:layout_width="290dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="@string/register_name_hint"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerTitle"/>
+        app:layout_constraintTop_toBottomOf="@+id/registerTitle" />
 
     <EditText
         android:id="@+id/registerEmailId"
-        android:layout_width="290dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/register_email_hint"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="140dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerNameId"/>
+        app:layout_constraintTop_toBottomOf="@+id/registerNameId" />
 
     <EditText
         android:id="@+id/registerConfirmEmailId"
-        android:layout_width="290dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/register_confirm_email_hint"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="198dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerEmailId"/>
+        app:layout_constraintTop_toBottomOf="@+id/registerEmailId" />
 
     <EditText
         android:id="@+id/registerPasswordId"
-        android:layout_width="290dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/register_password_hint"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="255dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerConfirmEmailId"/>
+        app:layout_constraintTop_toBottomOf="@+id/registerConfirmEmailId" />
 
     <EditText
         android:id="@+id/registerConfirmPasswordId"
-        android:layout_width="290dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/register_confirm_password_hint"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="312dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerPasswordId"/>
+        app:layout_constraintTop_toBottomOf="@+id/registerPasswordId" />
 
     <Button
         android:id="@+id/registerSaveButton"
-        android:layout_marginTop="40dp"
-        android:layout_width="118dp"
-        android:layout_height="36dp"
-        android:background="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/register_save_button"
+        android:background="@color/colorPrimary"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="393dp"
         app:layout_constraintEnd_toStartOf="@+id/registerCancelButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerConfirmPasswordId"/>
+        app:layout_constraintTop_toBottomOf="@+id/registerConfirmPasswordId" />
 
     <Button
         android:id="@+id/registerCancelButton"
-        android:layout_marginTop="40dp"
-        android:layout_width="118dp"
-        android:layout_height="36dp"
-        android:background="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/register_cancel_button"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="393dp"
+        android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/registerSaveButton"
-        app:layout_constraintTop_toBottomOf="@+id/registerConfirmPasswordId"/>
-
+        app:layout_constraintTop_toBottomOf="@+id/registerConfirmPasswordId" />
 </android.support.constraint.ConstraintLayout>
