@@ -100,6 +100,18 @@
                 android:textColor="#FFFFFF"
                 android:backgroundTint="@color/colorPrimary"/>
 
+            <Button
+                android:id="@+id/forgot_password"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Lost Password?"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/colorPrimary"/>
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

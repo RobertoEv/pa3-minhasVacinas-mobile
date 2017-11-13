@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nome"
+        android:id="@+id/tvTitulo"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:textColor="#3a677e"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvLblEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvTitulo"
+        android:text="Raça:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#747070"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvEndereco"
+        android:layout_alignTop="@+id/tvLblEndereco"
+        android:layout_toRightOf="@+id/tvLblEndereco"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="5dp"
+        android:textColor="#747070" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvLat"
+        android:layout_below="@+id/tvEndereco"
+        android:layout_alignRight="@+id/tvEndereco"
+        android:layout_alignEnd="@+id/tvEndereco"
+        android:paddingLeft="5dp"
+        android:textColor="#747070" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvLng"
+        android:layout_below="@+id/tvLat"
+        android:layout_alignRight="@+id/tvLat"
+        android:layout_alignEnd="@+id/tvLat"
+        android:paddingLeft="5dp"
+        android:textColor="#747070" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvLblDistancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Especie:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#747070"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvDistancia"
+        android:layout_alignLeft="@+id/tvEndereco"
+        android:layout_alignStart="@+id/tvEndereco"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="5dp"
+        android:textColor="#747070" />
+
+</android.support.constraint.ConstraintLayout>

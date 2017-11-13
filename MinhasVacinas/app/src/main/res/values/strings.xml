@@ -22,6 +22,14 @@
     <string name="register_confirm_password_hint">Repeat your password</string>
     <string name="register_save_button">Save</string>
     <string name="register_cancel_button">Cancel</string>
+    <string name="forgot_password_title">Forgot your password?</string>
+    <string name="forgot_password_email_hint">Enter email to recover password</string>
+    <string name="forgot_password_confirm_button">Confirm</string>
+    <string name="forgot_password_cancel_button">Cancel</string>
+    <string name="pet_item_name">Name</string>
+    <string name="pet_item_next_vaccine_date">Date</string>
+    <string name="pet_item_vaccine_type">Type</string>
+    <string name="list_vazia">Nenhum Registro Encontrado</string>
 
 
 

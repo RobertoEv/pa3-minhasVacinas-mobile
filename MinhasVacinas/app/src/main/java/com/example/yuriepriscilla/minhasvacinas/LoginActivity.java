@@ -102,6 +102,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 finish();
             }
         });
+
+        final Button buttonforgot = findViewById(R.id.forgot_password);
+        buttonforgot.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ForgotPasswordActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
     private void populateAutoComplete() {

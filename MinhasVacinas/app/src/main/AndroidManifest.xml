@@ -32,6 +32,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".RegisterPetActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
     </application>
 
 </manifest>
