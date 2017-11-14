@@ -4,14 +4,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.betoe.minhasvacinas.ForgotPasswordActivity;
-import com.betoe.minhasvacinas.MainActivity;
 import com.betoe.minhasvacinas.R;
 import com.betoe.minhasvacinas.RegisterActivity;
 import com.betoe.minhasvacinas.model.User;
@@ -102,7 +100,8 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (email.equals(serviceEmail) && password.equals(servicePassword)){
                     i = new Intent(LoginActivity.this, MainActivity.class);
-                    i.putExtra("email", inputEmail.getText().toString());
+                    i.putExtra("email", serviceEmail);
+                    i.putExtra("name", serviceName);
                     startActivity(i);
                 } else {
                     Toast.makeText(LoginActivity.this, "Login ou Senha Invalidos", Toast.LENGTH_SHORT).show();

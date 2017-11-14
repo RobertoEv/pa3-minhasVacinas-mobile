@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.betoe.minhasvacinas.MainActivity">
+    tools:context="com.betoe.minhasvacinas.activity.MainActivity">
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -40,7 +40,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Roberto Evangelista"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -48,8 +47,7 @@
                     android:id="@+id/mainEmailTextId"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="betoesf@gmail.com" />
+                    android:layout_weight="1" />
             </LinearLayout>
 
         </LinearLayout>
@@ -68,11 +66,11 @@
         app:layout_constraintRight_toRightOf="parent"
         app:srcCompat="@android:drawable/ic_input_add" />
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pet_recycler_view"
         android:layout_width="368dp"
         android:layout_height="375dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
