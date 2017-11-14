@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.betoe.minhasvacinas.LoginActivity"
+    tools:context="com.betoe.minhasvacinas.activity.LoginActivity"
     android:background="@drawable/android02">
 
     <TextView
@@ -58,6 +58,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/login_sign_in_button"
         android:textColor="#FFFFFF"
+        android:onClick="signIn"
         android:background="@color/colorPrimary"
         app:layout_constraintEnd_toStartOf="@+id/loginSignUpButton"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,6 +74,7 @@
         android:text="@string/login_sign_up_button"
         android:textColor="#FFFFFF"
         android:background="@color/colorPrimary"
+        android:onClick="signUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/loginSignInButtonId"
         app:layout_constraintTop_toBottomOf="@+id/loginForgotPasswordId" />
@@ -86,6 +88,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/login_forgot_password_hint"
         android:textAlignment="textEnd"
+        android:onClick="forgotPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginPasswordId" />
