@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                         Intent intent = new Intent(getApplicationContext(), RegisterPetActivity.class);
                         startActivity(intent);
-                        finish();
+
 
             }
         });
