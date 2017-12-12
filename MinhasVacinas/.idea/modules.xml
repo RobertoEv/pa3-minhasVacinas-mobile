@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MinhasVacinas.iml" filepath="$PROJECT_DIR$/MinhasVacinas.iml" />
+      <module fileurl="file://C:\PA3develop3\pa3-minhasVacinas-mobile\MinhasVacinas\MinhasVacinas.iml" filepath="C:\PA3develop3\pa3-minhasVacinas-mobile\MinhasVacinas\MinhasVacinas.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\PA3develop3\pa3-minhasVacinas-mobile\MinhasVacinas\app\app.iml" filepath="C:\PA3develop3\pa3-minhasVacinas-mobile\MinhasVacinas\app\app.iml" />
     </modules>
   </component>
 </project>
