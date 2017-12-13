@@ -30,4 +30,10 @@
     <string name="register_pet_birth_hint">Birthday</string>
     <string name="register_pet_save_button">Save</string>
     <string name="register_pet_cancel_button">Cancel</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+    <string name="action_settings">Sobre</string>
 </resources>
