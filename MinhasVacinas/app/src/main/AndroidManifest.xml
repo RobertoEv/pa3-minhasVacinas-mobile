@@ -25,10 +25,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ForgotPasswordActivity" />
-        <activity android:name=".activity.MainActivity"
-                  android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterPetActivity" />
         <activity android:name=".activity.SobreActivity" />
+        <activity android:name=".activity.VacinaActivity"></activity>
     </application>
 
 </manifest>

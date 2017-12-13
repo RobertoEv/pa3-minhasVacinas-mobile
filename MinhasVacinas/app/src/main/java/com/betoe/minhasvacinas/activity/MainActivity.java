@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.betoe.minhasvacinas.R;
 import com.betoe.minhasvacinas.RegisterActivity;
@@ -108,6 +109,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Log.e("Pets", t.toString());
             }
         });
+    }
+
+    public void getVacina(View view) {
+        Intent intent = new Intent(getApplicationContext(), VacinaActivity.class);
+        startActivity(intent);
     }
 
     @Override
