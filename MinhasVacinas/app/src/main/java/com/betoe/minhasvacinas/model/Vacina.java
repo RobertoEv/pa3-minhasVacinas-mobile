@@ -20,10 +20,10 @@ public class Vacina {
 
     @Override
     public String toString() {
-        return  "Vacina: " + nome + '\n' +
-                "Data: " + dataAplicacao + '\n' +
-                "Reforço: " + dataRetorno + '\n' +
-                "Veterinário: " + aplicador;
+        return  "Vaccine: " + nome + '\n' +
+                "Date: " + dataAplicacao + '\n' +
+                "Return Date: " + dataRetorno + '\n' +
+                "Veterinarian: " + aplicador;
     }
 
     public String getNome() {
